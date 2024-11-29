@@ -12,23 +12,24 @@ header{
     display: flex;
     flex-direction: row;
     padding: 30px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 0;
-    padding-left: 650px;
-    padding-right: 650px;
+    padding-left: 630px;
+    padding-right:  630px;
+    
 
     
 }
 .download{
-    padding: 5px;
-    text-align: center;
-    border: 10px;
+    display: flex;
+    
+    
+    
     
 }
 .link{
-    padding: 5px;
-    text-align: center;
-    border: 10px;
+    display: flex;
+    align-self: flex-start;
 }
 .testo-centrale{
     display: flex;
@@ -64,5 +65,117 @@ header{
     height: 400px;
     justify-content: center;
     align-items: center;
+
+}
+.secondo-gruppo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px;
+    padding-left: 280px;
+    padding-right: 280px;
+    align-items: center;
+
+
+
+
+}
+.secondo-testo{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+
+}
+.seconda-immagine{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+}
+.terzo-gruppo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px;
+    padding-left: 280px;
+    padding-right: 280px;
+    align-items: center;
+
+
+}
+.terzo-immagine{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.terzo-testo{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.quarto-gruppo{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+
+
+}
+.quarto-immagine{
+    display: flex;
+    width: 1000px;
+    height: 220px;
+
+
+}
+.quarto-testo{
+    display: flex;
+    width: 1100px;
+    height: 600px;
+
+
+}
+.quinto-gruppo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-top: 0;
+
+
+}
+.quinto-testo{
+    display: flex;
+    width: 200px;
+    height: 80px;
+    
+
+
+}
+.quinto-immagine{
+    display: flex;
+    width: 500px;
+    height: 80px;
+
 
 }
