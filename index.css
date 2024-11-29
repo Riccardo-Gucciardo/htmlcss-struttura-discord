@@ -12,19 +12,57 @@ header{
     display: flex;
     flex-direction: row;
     padding: 30px;
-    justify-content: center;
-    border-top: 0;
+    justify-content: space-around;
     padding-top: 0;
-    
+    padding-left: 650px;
+    padding-right: 650px;
 
     
 }
 .download{
     padding: 5px;
     text-align: center;
+    border: 10px;
     
 }
 .link{
     padding: 5px;
     text-align: center;
+    border: 10px;
+}
+.testo-centrale{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+.barra-interazioni{
+    display: flex;
+    padding: 13px;
+    
+}
+.primo-gruppo{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    justify-content: space-around;
+    padding-left: 280px;
+    padding-right: 280px;
+    align-items: center;
+
+}
+.prima-immagine{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.primo-testo{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
 }
