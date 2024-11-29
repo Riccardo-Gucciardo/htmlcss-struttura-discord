@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 2px solid red;
+
+}
+header{
+    background-color: beige;
+}
+.container-flex-bottoni{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: center;
+    border-top: 0;
+    padding-top: 0;
+    
+
+    
+}
+.download{
+    padding: 5px;
+    text-align: center;
+    
+}
+.link{
+    padding: 5px;
+    text-align: center;
+}
