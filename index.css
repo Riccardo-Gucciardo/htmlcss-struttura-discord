@@ -14,8 +14,8 @@ header{
     padding: 30px;
     justify-content: space-evenly;
     padding-top: 0;
-    padding-left: 630px;
-    padding-right:  630px;
+    padding-left: 500px;
+    padding-right:  500px;
     
 
     
@@ -46,22 +46,22 @@ header{
     flex-direction: row;
     padding: 100px;
     justify-content: space-around;
-    padding-left: 280px;
-    padding-right: 280px;
+    padding-left: 140px;
+    padding-right: 140px;
     align-items: center;
 
 }
 .prima-immagine{
     display: flex;
     width: 400px;
-    height: 400px;
+    height: 300px;
     justify-content: center;
     align-items: center;
     
 }
 .primo-testo{
     display: flex;
-    width: 400px;
+    width: 300px;
     height: 400px;
     justify-content: center;
     align-items: center;
@@ -72,9 +72,9 @@ header{
     flex-direction: row;
     justify-content: space-around;
     padding: 100px;
-    padding-left: 280px;
-    padding-right: 280px;
-    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    
 
 
 
@@ -82,7 +82,7 @@ header{
 }
 .secondo-testo{
     display: flex;
-    width: 400px;
+    width: 500px;
     height: 400px;
     justify-content: center;
     align-items: center;
@@ -107,15 +107,15 @@ header{
     flex-direction: row;
     justify-content: space-around;
     padding: 100px;
-    padding-left: 280px;
-    padding-right: 280px;
-    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    
 
 
 }
 .terzo-immagine{
     display: flex;
-    width: 400px;
+    width: 500px;
     height: 400px;
     justify-content: center;
     align-items: center;
@@ -137,6 +137,8 @@ header{
     justify-content: center;
     align-items: center;
     padding: 200px;
+    padding-bottom: 0;
+    padding-top: 100px;
 
 
 }
@@ -160,7 +162,7 @@ header{
     justify-content: center;
     align-items: center;
     padding: 100px;
-    padding-top: 0;
+    
 
 
 }
@@ -185,7 +187,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 1px;
     padding-top: 0;
     
 }
