@@ -10,6 +10,9 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    
+    
     
 }
 .barra-interazioni{
@@ -20,18 +23,20 @@ header{
     flex-direction: row;
     align-items: center;
     
+    
 
 }
 .lista-titolo{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    text-decoration: none;
+    
 }
 .accedi{
 
     border-radius: 20px;
-    padding-inline: 10px
+    padding-inline: 10px;
+    color: black;
 
 }
 
@@ -47,20 +52,26 @@ header{
 .download{
     display: flex;
     border-radius: 20px;
-    padding-inline: 10px
+    padding-inline: 10px;
+    color: black;
     
 }
 .link{
     display: flex;
     align-self: flex-start;
     border-radius: 20px;
-    padding-inline: 10px
+    padding-inline: 10px;
+    background-color: black;
+}
+h1{
+    padding-bottom: 2%;
 }
 .testo-centrale{
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 1%;
     
 }
     
@@ -69,25 +80,24 @@ header{
 .primo-gruppo{
     display: flex;
     flex-direction: row;
-    padding: 100px;
     justify-content: space-around;
-    padding-left: 140px;
-    padding-right: 140px;
-    align-items: center;
+    padding: 8%
 
 }
 .prima-immagine{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 60%;
+    flex-basis: 50%;
     
     
 }
 .primo-testo{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-basis: 40%;
 
 
 }
@@ -95,21 +105,15 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 100px;
-    padding-left: 80px;
-    padding-right: 80px;
-    
-
-
-
+    padding: 8%;
 
 }
 .secondo-testo{
     display: flex;
-    width: 500px;
-    height: 400px;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    flex-direction: column;
+    flex-basis: 30%;
     
     
 
@@ -117,10 +121,9 @@ header{
 }
 .seconda-immagine{
     display: flex;
-    width: 400px;
-    height: 400px;
     justify-content: center;
     align-items: center;
+    flex-basis: 50%;
     
 
 
@@ -130,28 +133,26 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 100px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 8%;
     
 
 
 }
 .terzo-immagine{
     display: flex;
-    width: 500px;
-    height: 400px;
     justify-content: center;
     align-items: center;
+    flex-basis: 50%;
 
 
 }
 .terzo-testo{
     display: flex;
-    width: 400px;
-    height: 400px;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    flex-direction: column;
+    flex-basis: 30%;
+    
 
 
 }
@@ -160,23 +161,28 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 200px;
-    padding-bottom: 0;
-    padding-top: 100px;
+    padding: 10%;
+    
 
 
 }
 .quarto-immagine{
     display: flex;
-    width: 1000px;
-    height: 220px;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 10%;
+    width: 100%;
+    
 
 
 }
 .quarto-testo{
     display: flex;
-    width: 1100px;
-    height: 600px;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-basis: 30%;
+    
 
 
 }
