@@ -6,41 +6,66 @@
 
 }
 header{
-    background-color: beige;
+    background-image: url(./immagini/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+.barra-interazioni{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.lista-titolo{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+}
+.accedi{
+
+    border-radius: 20px;
+    padding-inline: 10px
+
+}
+
 .container-flex-bottoni{
     display: flex;
     flex-direction: row;
-    padding: 30px;
     justify-content: space-evenly;
-    padding-top: 0;
-    padding-left: 500px;
-    padding-right:  500px;
+    padding: 1%;
+    padding-bottom: 4%;
     
-
     
 }
 .download{
     display: flex;
-    
-    
-    
+    border-radius: 20px;
+    padding-inline: 10px
     
 }
 .link{
     display: flex;
     align-self: flex-start;
+    border-radius: 20px;
+    padding-inline: 10px
 }
 .testo-centrale{
     display: flex;
-    padding: 100px;
     justify-content: center;
-}
-.barra-interazioni{
-    display: flex;
-    padding: 13px;
+    flex-direction: column;
+    text-align: center;
     
 }
+    
+    
+
 .primo-gruppo{
     display: flex;
     flex-direction: row;
@@ -53,18 +78,17 @@ header{
 }
 .prima-immagine{
     display: flex;
-    width: 400px;
-    height: 300px;
     justify-content: center;
     align-items: center;
+    flex-basis: 60%;
+    
     
 }
 .primo-testo{
     display: flex;
-    width: 300px;
-    height: 400px;
     justify-content: center;
     align-items: center;
+
 
 }
 .secondo-gruppo{
