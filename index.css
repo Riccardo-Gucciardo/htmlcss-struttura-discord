@@ -62,6 +62,7 @@ header{
     border-radius: 20px;
     padding-inline: 10px;
     background-color: black;
+    ;
 }
 h1{
     padding-bottom: 2%;
@@ -170,7 +171,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 10%;
+    flex-basis: 20%;
     width: 100%;
     
 
@@ -179,9 +180,10 @@ h1{
 .quarto-testo{
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
     flex-basis: 30%;
+    text-align: center;
     
 
 
@@ -191,24 +193,29 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding-top: 0;
     
 
 
 }
 .quinto-testo{
-    
     display: flex;
-    width: 200px;
-    height: 80px;
+    padding: 3%;
+    background-image: url(./immagini/stars.svg);
+    background-position: start;
+    
+    
     
 
 
 }
 .quinto-immagine{
     display: flex;
-    width: 500px;
-    height: 80px;
+    border-radius: 20px;
+    padding-inline: 10px;
+    margin: 5%;
+    margin-bottom: 2%;
+    
 
 
 }
